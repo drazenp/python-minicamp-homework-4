@@ -1,0 +1,10 @@
+body{
+	width: 400px;
+	margin: 0 auto;
+	background-color: #ef3636;
+}
+
+label {
+	width: 200px;
+	display: block;
+}

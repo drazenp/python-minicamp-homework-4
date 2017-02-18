@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+	</head>
+	<body>
+		<h1>Post movie</h1>
+		<form method="post" action="{{url_for('addMovie')}}">
+			<label for="title">Title:</label>
+			<input type="text" name="title"/>
+			</br>
+			<label for="description">Description:</label>
+			<textarea name="description"></textarea>
+			</br>
+			<input type="submit" value="Submit"/>
+		</form>
+		</br>
+		<a href="/movies">Get all movies</a>
+	</body>
+</html>
