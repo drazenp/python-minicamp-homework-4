@@ -15,5 +15,10 @@
 		</form>
 		</br>
 		<a href="/movies">Get all movies</a>
+		<form action="{{ url_for('search') }}" method="GET">
+			<h2>Search</h2>
+			<input type="text" name="title" />
+			<input type="submit" />
+		</form>
 	</body>
 </html>
